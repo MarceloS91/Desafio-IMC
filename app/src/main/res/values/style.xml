@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="arredondar">
+        <item name="backgroundTint">@color/grey_light</item>
+    </style>
+</resources>

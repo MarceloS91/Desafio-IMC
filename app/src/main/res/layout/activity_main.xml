@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular IMC"
+        android:textSize="40dp"
+        android:inputType="number"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/arredondar"
+        android:layout_width="142dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="244dp"
+        android:background="@drawable/arredondar"
+        android:inputType="number"
+        android:text="Calcular"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextaltura"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="436dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:maxLength="4"
+        android:hint="Altura"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextpeso"
+        android:layout_width="141dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="368dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:maxLength="4"
+        android:hint="Peso"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/textViewresultado"
+        android:layout_width="170dp"
+        android:layout_height="231dp"
+        android:layout_marginBottom="300dp"
+        android:background="@color/white"
+        android:hint="Resultado"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="58dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="420dp"
+        android:text="="
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
